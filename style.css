@@ -1,0 +1,110 @@
+body
+{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     background-color: wheat;
+}
+div
+{
+height: 370px;
+width: 300px;
+background-color: white;
+box-shadow: -2px 1px 13px 0px rgba(80, 79, 79, 0.75);
+-webkit-box-shadow: -2px 1px 13px 0px rgba(56, 56, 56, 0.75);
+-moz-box-shadow: -2px 1px 13px 0px rgba(69, 69, 69, 0.75);
+border-radius: 5px;
+margin-left: 10pc;
+margin-top: 1pc;
+}
+div h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   position: absolute;
+   margin-left: 1pc;
+   margin-top: 1.5pc;
+}
+div h2
+{
+color: #4267B2;
+position: absolute;
+margin-top: 13.5pc;
+font-size: 13px;
+margin-left: 2pc;
+font-weight:bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+div p
+{
+    position: absolute;
+    margin-top: 3.5pc;
+    color: rgb(126, 125, 125);
+    font-size: 15px;
+    margin-left: 1pc;
+}
+div input
+{
+position: absolute;
+margin-top: 6pc;
+height: 35px;
+width: 220px;
+margin-left: 1.7pc;
+padding-left: 7px;
+}
+.input1
+{
+    position: absolute;
+margin-top: 10pc;
+height: 35px;
+width: 220px;
+margin-left: 1.7pc;
+padding-left: 7px;
+}
+.button
+{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    background-color: #4267B2;
+    border: none;
+    color: white;
+    margin-top: 15.5pc;
+    margin-left: 2.5pc;
+    border-radius: 15px;
+}
+div h3
+{
+    position: absolute;
+    margin-top: 18.5pc;
+    margin-left: 8pc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 91, 89);
+}
+.button1
+{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: rgb(92, 90, 90);
+    margin-top: 20pc;
+    margin-left: 2.5pc;
+    border-radius: 15px;
+    border: 1px solid rgb(138, 135, 135);
+   
+}
+div img
+{
+    position: absolute;
+    height: 20px;
+    margin-top: 20.5pc; 
+    margin-left: 3.5pc;  
+}
+@media only screen and (max-width: 600px)
+{
+    div
+    {
+        margin-left: 2pc;
+    }
+}
